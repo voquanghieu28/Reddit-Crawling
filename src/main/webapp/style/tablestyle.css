@@ -1,0 +1,73 @@
+table {
+    border-collapse: collapse;
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    
+}
+
+table.border {
+    border: 0px solid black;
+}
+
+
+td {
+    text-align: left;
+    padding: 8px; 
+    
+}
+
+
+
+th {
+    text-align: left;
+    padding: 8px; 
+    /*background-color: #4CAF50;*/
+    /*background: #333333;*/
+    color: black;
+}
+
+td.edit{
+    width:65px;
+}
+td.name{
+    width:150px;
+}
+td.delete{
+    text-align: center;
+}
+input.editor{
+    width: 100%;
+}
+input.update{
+    width: 100%;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/*my part below*/
+/*https://www.w3schools.com/css/css3_buttons.asp*/
+/*
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #1c1010;
+  background-color: #e3dcdc;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #bfbaba}
+
+.button:active {
+  background-color: #f57373;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}*/
